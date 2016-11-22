@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/accueil"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/accueil" />
+        <item
+            android:id="@+id/recherche"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/recherche" />
+        <item
+            android:id="@+id/connexion"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/connexion" />
+        <item
+            android:id="@+id/moncompte"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/moncompte" />
+        <item
+            android:id="@+id/mesbillets"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/mesbillets"/>
+        <item
+            android:id="@+id/ecoute"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/ecoute"/>
+    </group>
+
+</menu>
