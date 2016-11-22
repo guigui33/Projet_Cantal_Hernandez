@@ -13,7 +13,6 @@ import java.util.List;
 /**
  * Created by guill on 21/11/2016.
  */
-
 public class ElementAdapter extends ArrayAdapter<Element> {
 
     public ElementAdapter(Context context, List<Element> elements) {

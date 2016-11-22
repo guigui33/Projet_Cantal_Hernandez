@@ -69,10 +69,11 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         int id = item.getItemId();
-        Fragment fragment=null;
+        ListFragment fragment=null;
 
         switch (id) {
             case R.id.accueil:
+                fragment=new SimpleListViewFragment();
                 break;
             case R.id.recherche:
                 break;

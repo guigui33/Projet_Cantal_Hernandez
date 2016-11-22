@@ -13,5 +13,6 @@
     <string name="nom_chanteur">Nom Chanteur</string>
     <string name="album">Album</string>
     <string name="image_album">Image Album</string>
+    <string name="text_empty">Texte Empty</string>
 
 </resources>
